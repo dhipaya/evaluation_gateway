@@ -46,5 +46,5 @@ app.delete('/resource', verifyToken, checkRole('delete'), (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log("Server running on port : "+PORT);
+    console.log("Server Running on port : "+PORT);
 });
